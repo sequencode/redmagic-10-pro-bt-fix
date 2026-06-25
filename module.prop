@@ -1,0 +1,6 @@
+id=redmagic10pro_bt_fix
+name=RedMagic 10 Pro GSI Bluetooth A2DP Fix
+version=v1.0
+versionCode=1
+author=SEQUENCODE
+description=Fixes Bluetooth A2DP audio on the RedMagic 10 Pro (NX789J) running a phh-treble GSI. Stops the sysbta system BT-audio HAL, enables A2DP hardware offload, and bounces audioserver + the BT adapter until media routes correctly to the headset. Aborts silently on other devices.

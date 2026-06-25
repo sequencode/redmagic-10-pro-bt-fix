@@ -1,0 +1,7 @@
+# BT A2DP offload — set at post-fs-data so audioserver gets a head start.
+# Note: ro.* props here are re-asserted by resetprop in service.sh after each
+# audioserver restart, since AS restarts can clear ro-prop overrides.
+ro.bluetooth.a2dp_offload.supported=true
+bluetooth.a2dp.offload.enabled=true
+persist.bluetooth.a2dp_offload.disabled=false
+persist.bluetooth.system_audio_hal.enabled=false
