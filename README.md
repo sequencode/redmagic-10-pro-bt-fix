@@ -23,4 +23,6 @@ confirmed in the audio policy.
 
 Flash via APatch / KernelSU / Magisk and reboot.
 
+**[Download latest release](https://github.com/sequencode/redmagic-10-pro-bt-fix/releases/latest)**
+
 > Aborts silently on unsupported devices.
